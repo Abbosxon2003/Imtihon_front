@@ -1,9 +1,8 @@
 export interface IProduct {
   id: number;
   title: string;
-  price: number;
   description: string;
-  thumbnail: string;
+  price: number;
   rating: number;
   stock: number;
   is_liked: boolean;
